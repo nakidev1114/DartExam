@@ -26,28 +26,36 @@
 //
 // }
 
-// Collection (1) - List
+// // Collection (1) - List
+// void main() {
+//
+//   List<int> nakiBirth = []; // List<데이터 타입> 변수명 = [데이터1, 데이터2, ...];
+//   print(nakiBirth);
+//
+//   nakiBirth.add(11);
+//   nakiBirth.add(14);
+//   print(nakiBirth);
+//
+//   // List<String> nakiLove = List.filled(5, 'who', growable : true);
+//   // print(nakiLove);
+//   //
+//   // nakiLove.add('gf');
+//   // print(nakiLove);
+//   //
+//   // nakiLove.remove('who');
+//   // print(nakiLove);
+//
+//   List<String> nakiLove = ['who', 'who1', 'who2', 'who', 'gf'];
+//
+//   nakiLove.remove('who');
+//   print(nakiLove);
+//
+// }
+
+// Collection (2) - Set
 void main() {
 
-  List<int> nakiBirth = []; // List<데이터 타입> 변수명 = [데이터1, 데이터2, ...];
-  print(nakiBirth);
-
-  nakiBirth.add(11);
-  nakiBirth.add(14);
-  print(nakiBirth);
-
-  // List<String> nakiLove = List.filled(5, 'who', growable : true);
-  // print(nakiLove);
-  //
-  // nakiLove.add('gf');
-  // print(nakiLove);
-  //
-  // nakiLove.remove('who');
-  // print(nakiLove);
-
-  List<String> nakiLove = ['who', 'who1', 'who2', 'who', 'gf'];
-
-  nakiLove.remove('who');
+  Set<String> nakiLove = { 'who', 'who', 'who', 'who', 'who' };
   print(nakiLove);
 
 }
