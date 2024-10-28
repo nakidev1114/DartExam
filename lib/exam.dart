@@ -52,10 +52,25 @@
 //
 // }
 
-// Collection (2) - Set
+// // Collection (2) - Set
+// void main() {
+//
+//   Set<String> nakiLove = { 'who', 'who', 'who', 'who', 'who' };
+//   print(nakiLove);
+//
+// }
+
+// Collection (3) - Map
 void main() {
 
-  Set<String> nakiLove = { 'who', 'who', 'who', 'who', 'who' };
-  print(nakiLove);
+  Map nakiMap = {};
+  nakiMap['name'] = 'Naki';
+  nakiMap['age'] = 34;
+
+  print(nakiMap);
+
+  nakiMap.remove('name');
+
+  print(nakiMap);
 
 }
